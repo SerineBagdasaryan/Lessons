@@ -1,6 +1,6 @@
 let colors: string[] = ["red", "yellow", "blue", "black"];
 
-function printRandomColors(colors: string[]): string[] {
+function getRandomColors(colors: string[]): string[] {
 
     let randomColors: string[] = [];
 
@@ -12,4 +12,4 @@ function printRandomColors(colors: string[]): string[] {
     return randomColors;
 }
 
-console.log(printRandomColors(colors));
+console.log(getRandomColors(colors));
